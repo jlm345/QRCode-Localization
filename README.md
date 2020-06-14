@@ -1,6 +1,7 @@
 QRCode-Localization
 ===
 代码关于如何更具摆放好的二维码来获取无人机的运动高精度运动轨迹，方法是在无人机上固连一个拍摄二维码的辅助相机，保存拍摄到的图片以及图片的时间，然后进行离线识别，获得运动真值。
+
 #1.依赖的条件
 ##OpenCV4.x
 [Opencv4.x 下载](https://github.com/opencv/opencv/archive/4.3.0.zip)
@@ -23,7 +24,7 @@ cd build
 ./Test ../5.jpg
 ```
 ![单张图片运行结果](https://github.com/jlm345/QRCode-Localization/blob/master/result.png)
-##连续采集的图片输出轨迹信息 数据集下载[百度网盘](www.baidu.com)(等待更新)
+##连续采集的图片输出轨迹信息 数据集下载[百度网盘](www.baidu.com)(等待上传)
 ```bash
 ./QRPositions path_to_dataset
 ```
