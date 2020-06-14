@@ -5,7 +5,7 @@ QRCode-Localization
 1.依赖的条件
 ---
 OpenCV4.x
-[Opencv4.x 下载](https://github.com/opencv/opencv/archive/4.3.0.zip)
+[Opencv4.3下载](https://github.com/opencv/opencv/archive/4.3.0.zip)
 [安装OpenCV4.x教程](https://blog.csdn.net/learning_tortosie/article/details/80594399)
 
 2.ubuntu 下编译
