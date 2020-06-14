@@ -8,6 +8,7 @@ SET( CMAKE_CXX_FLAGS "-std=c++11 -O3")
 find_package(Ceres REQUIRED)
 include_directories(${CERES_INCLUDE_DIRS})
 
+#换成安装好的OpenCVconfig.cmake的路径
 set(OpenCV_DIR "/home/jlm/jlm/OpenCV4.1.2/Opencv_4.1.2_install_dir/lib/cmake/opencv4") 
 find_package(OpenCV REQUIRED) 
 include_directories( ${OpenCV_INCLUDE_DIRS} )
