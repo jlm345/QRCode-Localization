@@ -27,8 +27,8 @@ cd build
 ./Test ../5.jpg
 ```
 ![单张图片运行结果](https://github.com/jlm345/QRCode-Localization/blob/master/result.png)
-##连续采集的图片输出轨迹信息 数据集下载[百度网盘](www.baidu.com)(等待上传)
+##连续采集的图片输出轨迹信息 数据集下载[百度网盘](https://pan.baidu.com/s/1A9UpyVKtCeohIFMgGU1uJA)(提取码18b3)
 ```bash
-./QRPositions path_to_dataset
+./QRPositions path_to_dataset/data/
 ```
 然后就能在trajectory.txt获得估计出的position信息
